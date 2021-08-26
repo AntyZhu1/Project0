@@ -1,6 +1,7 @@
-P0-BANKING APPLICATION-JAVA CONSOLE-ANDROID
-Project Description
-Banking APP that allows its users to register as customer & employee, login, fund transfer, deposit, withdraw etc, view transactions etc.
+* P0-BANKING APPLICATION-JAVA CONSOLE-ANDROID
+
+* Project Description
+* Banking APP that allows its users to register as customer & employee, login, fund transfer, deposit, withdraw etc, view transactions etc.
 
 
 Technologies Used
