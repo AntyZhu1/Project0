@@ -24,6 +24,7 @@ create an sql database with the name "banklogins"
 create 4 tables in banklogins:
 
 customers:
+`
 +----------------+-------------+------+-----+---------+----------------+
 | Field          | Type        | Null | Key | Default | Extra          |
 +----------------+-------------+------+-----+---------+----------------+
@@ -34,9 +35,11 @@ customers:
 | cust_lastname  | varchar(50) | YES  |     | NULL    |                |
 | cust_money     | double      | YES  |     | NULL    |                |
 +----------------+-------------+------+-----+---------+----------------+
+`
 
 employees:
 mysql> desc employees;
+`
 +---------------+-------------+------+-----+---------+----------------+
 | Field         | Type        | Null | Key | Default | Extra          |
 +---------------+-------------+------+-----+---------+----------------+
@@ -46,8 +49,10 @@ mysql> desc employees;
 | emp_firstname | varchar(50) | YES  |     | NULL    |                |
 | emp_lastname  | varchar(50) | YES  |     | NULL    |                |
 +---------------+-------------+------+-----+---------+----------------+
+`
 
 peinding (to handle pending accounts for customers)
+`
 +-------------------+-------------+------+-----+---------+----------------+
 | Field             | Type        | Null | Key | Default | Extra          |
 +-------------------+-------------+------+-----+---------+----------------+
@@ -58,8 +63,10 @@ peinding (to handle pending accounts for customers)
 | pending_lastname  | varchar(50) | YES  |     | NULL    |                |
 | pending_money     | double      | YES  |     | NULL    |                |
 +-------------------+-------------+------+-----+---------+----------------+
+`
 
 transfer-funds:
+`
 +----------------+--------+------+-----+---------+----------------+
 | Field          | Type   | Null | Key | Default | Extra          |
 +----------------+--------+------+-----+---------+----------------+
@@ -67,6 +74,7 @@ transfer-funds:
 | transfer_to_id | int    | YES  |     | NULL    |                |
 | transfer_money | double | YES  |     | NULL    |                |
 +----------------+--------+------+-----+---------+----------------+
+`
 
 
 Usage
